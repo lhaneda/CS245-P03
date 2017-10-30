@@ -37,7 +37,7 @@ public class SortingFactory {
 			return new QuickSort();
 		}
 		if (lowercaseAlgoName.contains("merge")) {
-			return new MergeSort();
+			return new Merge();
 		}
 		
 		// Invalid algorithm name specified. Use default?
